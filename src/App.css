@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+
 .App {
   text-align: center;
   background-color: #A9A8AA;
@@ -6,7 +9,7 @@
 }
 
 .App-logo {
-  margin-top: 1.5rem;
+  margin-top: .5rem;
   height: 40vmin;
   width: 68vmin;
   pointer-events: none;
@@ -24,31 +27,94 @@
 
 .App-header h1 {
   color: #203746;
-  margin-top: 30px;
-  margin-bottom: 1px;
-  font-size: calc(10px + 3vmin);
-
-  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: calc(12px + 3vmin);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .App-header p {
   margin: 5px;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(12px + 2vmin);
   color: #203746;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.twitter{
-  margin: 1px;
+.redes-sociales{
+  display: flex;
+  justify-content: center;
 }
+
+.logo-twitter{
+  width: 50px;
+  height: 50px;
+  margin: 12px;
+}
+
+.logo-facebook{
+  width: 50px;
+  height: 50px;
+  margin: 12px;
+}
+
+.logo-instagram{
+  width: 50px;
+  height: 50px;
+  margin: 12px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For phone: */
+
+
+  .App-logo{
+    margin-top: 15vmin;
+  }
+
+  .App-header h1{
+    margin-top: 15vmin;
+  }
+
+  .logo-twitter {
+    margin-top: 15vmin;
+    width: 20vmin;
+    height: 20vmin;
+  }
+  .logo-facebook {
+    margin-top: 15vmin;
+    width: 20vmin;
+    height: 20vmin;
+  }
+  .logo-instagram {
+    margin-top: 15vmin;
+    width: 20vmin;
+    height: 20vmin;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* For pc: */
+  .App-header h1{
+    margin-top: .5vmin;
+    margin-bottom: 0;
+  }
+
+  .App-header p{
+    margin-top: 1vmin;
   }
 }
