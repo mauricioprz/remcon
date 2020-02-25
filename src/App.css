@@ -10,8 +10,8 @@
 
 .App-logo {
   margin-top: .5rem;
-  height: 40vmin;
-  width: 68vmin;
+  height: 30vmin;
+  width: 60vmin;
   pointer-events: none;
 }
 
@@ -27,7 +27,7 @@
 
 .App-header h1 {
   color: #203746;
-  margin-top: 20px;
+  margin-top: 17px;
   margin-bottom: 20px;
   font-size: calc(12px + 3vmin);
   font-family: 'Roboto', sans-serif;
@@ -35,7 +35,7 @@
 }
 
 .App-header p {
-  margin: 5px;
+  margin: 4px;
   font-size: calc(12px + 2vmin);
   color: #203746;
   font-family: 'Roboto', sans-serif;
@@ -52,26 +52,26 @@
 }
 
 .logo-twitter{
-  width: 70px;
-  height: 70px;
+  width: 35px;
+  height: 35px;
   margin: 12px;
 }
 
 .logo-facebook{
-  width: 70px;
-  height: 70px;
+  width: 35px;
+  height: 35px;
   margin: 12px;
 }
 
 .logo-instagram{
-  width: 70px;
-  height: 70px;
+  width: 35px;
+  height: 35px;
   margin: 12px;
 }
 
 .logo-youtube{
-  width: 70px;
-  height: 70px;
+  width: 35px;
+  height: 35px;
   margin: 12px;
 }
 

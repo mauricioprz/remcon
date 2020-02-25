@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './img/remcon-free.png';
+import logo from './img/logoremcont2.png';
 import './App.css';
 import twitter from './img/twitter.png';
 import facebook from './img/facebook.png';
@@ -23,6 +23,9 @@ function App() {
           
           <a href="https://twitter.com/@RemconC">
             <img className="logo-twitter" src={twitter} alt="Twitter" />
+          </a>
+          <a href="https://twitter.com/@RemconC">
+            <img className="link-twitter" alt="Twitter" />@RemconC
           </a>
           <a href="https://www.youtube.com/channel/UChQAjC7FH9qZhqgeaSy8Icw">
             <img className="logo-youtube" src={youtube} alt="Youtube" />
