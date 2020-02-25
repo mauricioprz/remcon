@@ -52,20 +52,26 @@
 }
 
 .logo-twitter{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   margin: 12px;
 }
 
 .logo-facebook{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   margin: 12px;
 }
 
 .logo-instagram{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
+  margin: 12px;
+}
+
+.logo-youtube{
+  width: 70px;
+  height: 70px;
   margin: 12px;
 }
 
@@ -78,7 +84,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   /* For phone: */
 
 
@@ -87,34 +93,40 @@
   }
 
   .App-header h1{
-    margin-top: 15vmin;
+    margin: 5vmin;
   }
 
   .logo-twitter {
     margin-top: 15vmin;
-    width: 20vmin;
-    height: 20vmin;
+    width: 18vmin;
+    height: 18vmin;
   }
   .logo-facebook {
     margin-top: 15vmin;
-    width: 20vmin;
-    height: 20vmin;
+    width: 18vmin;
+    height: 18vmin;
   }
   .logo-instagram {
     margin-top: 15vmin;
-    width: 20vmin;
-    height: 20vmin;
+    width: 18vmin;
+    height: 18vmin;
+  }
+  
+  .logo-youtube {
+    margin-top: 15vmin;
+    width: 18vmin;
+    height: 18vmin;
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   /* For pc: */
   .App-header h1{
-    margin-top: .5vmin;
+    margin-top: 5vmin;
     margin-bottom: 0;
   }
 
   .App-header p{
-    margin-top: 1vmin;
+    margin-top: 5vmin;
   }
 }

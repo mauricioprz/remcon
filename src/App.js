@@ -4,6 +4,7 @@ import './App.css';
 import twitter from './img/twitter.png';
 import facebook from './img/facebook.png';
 import instagram from './img/instagram.png';
+import youtube from './img/youtube.png';
 
 
 
@@ -23,10 +24,13 @@ function App() {
           <a href="https://twitter.com/@RemconC">
             <img className="logo-twitter" src={twitter} alt="Twitter" />
           </a>
-          <a href="https://facebook.com/remcon-constructora">
+          <a href="https://www.youtube.com/channel/UChQAjC7FH9qZhqgeaSy8Icw">
+            <img className="logo-youtube" src={youtube} alt="Youtube" />
+          </a>
+          <a href="https://www.facebook.com/remconconstructora">
             <img className="logo-facebook" src={facebook} alt="Facebook" />
           </a>
-          <a href="https://instagram.com/@remconconstructora">
+          <a href="https://www.instagram.com/remconconstructora">
             <img className="logo-instagram" src={instagram} alt="Instagram" />
           </a>
           
