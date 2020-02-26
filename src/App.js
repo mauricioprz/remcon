@@ -21,20 +21,19 @@ function App() {
           </p>
         <div className="redes-sociales">
           
-          <a href="https://twitter.com/@RemconC">
-            <img className="logo-twitter" src={twitter} alt="Twitter" />
+          <a className="text align-text" href="https://twitter.com/@RemconC">
+            <p className="align-text">
+            <img className="logo-twitter" src={twitter} alt="Twitter" />@RemconC
+            </p>
           </a>
-          <a href="https://twitter.com/@RemconC">
-            <img className="link-twitter" alt="Twitter" />@RemconC
+          <a className="text" href="https://www.youtube.com/channel/UChQAjC7FH9qZhqgeaSy8Icw">
+            <img className="logo-youtube" src={youtube} alt="Youtube" />https://www.youtube.com/channel/UChQAjC7FH9qZhqgeaSy8Icw
           </a>
-          <a href="https://www.youtube.com/channel/UChQAjC7FH9qZhqgeaSy8Icw">
-            <img className="logo-youtube" src={youtube} alt="Youtube" />
+          <a className="text" href="https://www.facebook.com/remconconstructora">
+            <img className="logo-facebook" src={facebook} alt="Facebook" />https://www.facebook.com/remconconstructora
           </a>
-          <a href="https://www.facebook.com/remconconstructora">
-            <img className="logo-facebook" src={facebook} alt="Facebook" />
-          </a>
-          <a href="https://www.instagram.com/remconconstructora">
-            <img className="logo-instagram" src={instagram} alt="Instagram" />
+          <a className="text" href="https://www.instagram.com/remconconstructora">
+            <img className="logo-instagram" src={instagram} alt="Instagram" />https://www.instagram.com/remconconstructora/
           </a>
           
         </div>

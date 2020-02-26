@@ -46,10 +46,7 @@
   color: #61dafb;
 }
 
-.redes-sociales{
-  display: flex;
-  justify-content: center;
-}
+
 
 .logo-twitter{
   width: 35px;
@@ -96,31 +93,56 @@
     margin: 5vmin;
   }
 
+  .text{
+    text-decoration: none;
+    color: #61dafb;
+  }
+
   .logo-twitter {
     margin-top: 15vmin;
-    width: 18vmin;
-    height: 18vmin;
+    width: 15px;
+    height: 15px;
   }
   .logo-facebook {
     margin-top: 15vmin;
-    width: 18vmin;
-    height: 18vmin;
+    width: 15px;
+    height: 15px;
   }
   .logo-instagram {
     margin-top: 15vmin;
-    width: 18vmin;
-    height: 18vmin;
+    width: 15px;
+    height: 15px;
   }
   
   .logo-youtube {
     margin-top: 15vmin;
-    width: 18vmin;
-    height: 18vmin;
+    width: 15px;
+    height: 15px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   /* For pc: */
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: #09728f;
+    font-weight: 400;
+  }
+
+  .align-text{
+    position: fixed;
+  top: 20px;
+  left: 20px;
+  background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .App-header h1{
     margin-top: 5vmin;
     margin-bottom: 0;
